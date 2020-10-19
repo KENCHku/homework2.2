@@ -11,6 +11,8 @@ public class Transport implements Printable{
 
     @Override
     public void print() {
+        System.out.println(" " + getClass().getSimpleName()+
+                "\n Обьем: " + getVolume());
 
     }
 }
